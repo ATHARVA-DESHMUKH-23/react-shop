@@ -7,6 +7,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import Header from './header';
+import Home from './home';
 
 const Navbar = () => {
   const [data, setData] = useState(false);
@@ -66,6 +67,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+      <Home/>
     </>
   );
 };
